@@ -5,36 +5,23 @@ header {
     display: flex;
     top:0;
     width: 100%;
-    background-color:black;
+    background-color:rgba(163, 55, 13, 0.877);
     justify-content: space-between;
     position: fixed;
     z-index: 1;
     color:white;
     padding: 10px;
+    image-resolution: 100px;
     }
 nav a{
     padding: 10px 25px;
     text-decoration: none;
     color: white;
     }
- 
-section.about{
-    background-color: black;
-    height: 600px;
-    }
-section.product{
-    background-size: cover;
-    background: url("BG1.png"); background-repeat: no-repeat;
-    background-attachment: fixed;
-    height: 600px;
-    }
-section.contact{
-    background-color: black; height: 600px;
-    }
  footer {
-    background-color: black; height:50px;
+    background-color: black; 
+    height:50px;
     }
-
 section.home{
     height: 600px;
     background:url("BG1.png");
@@ -63,7 +50,7 @@ section.home a {
      }
 
 section.about{
-    background-color: black;
+    background: url(Marmer);
     height: 600px;
     padding-top:100px;
     }
@@ -76,9 +63,10 @@ section.about div{
     }
 section.about img{
     height: 200px;
+    width: 150px;
     }
 section.product{
-    background: url("https://assets.onecompiler.app/3ygqrjfrk/43ddsuqtk/cafe3.jpg");
+    background: url("BG1.png");
     background-size: cover; 
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -92,11 +80,12 @@ section.product .container {
     }
 section.product .container .card{ 
         width:210px; 
-        margin:10px; 
-        height: 320px; 
+        margin:20px; 
+        height: 385px; 
         box-shadow: 0 0 2px ; 
         padding: 10px; 
         text-align: center; 
+        background: url(BG2) ;
     }
 section.product .container .card img{
     width: 100%;
@@ -107,5 +96,33 @@ section.product .container .card img{
     text-decoration: none;
     box-shadow: 0px 0px 3px;
     border-radius: 20px;
-    
  }
+ section.contact{ 
+    background: url(Marmer); 
+ }
+section.contact .card{
+margin: auto;
+color: white;
+text-align: center; 
+padding-top: 100px;
+width: 400px;
+font-size: large;
+}
+
+section.contact .card img{ 
+    width: 250px; 
+    height : 350px;
+}
+footer{
+background-color: grey; 
+height:50px;
+} 
+footer .medsos{ 
+    text-align: center; 
+    padding-top: 10px;
+} 
+footer .medsos a{
+    color:white; 
+    font-size: 20px; 
+    padding: 5px 20px; 
+}
