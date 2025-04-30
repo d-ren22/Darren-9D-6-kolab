@@ -18,10 +18,7 @@ nav a{
     text-decoration: none;
     color: white;
     }
- footer {
-    background-color: black; 
-    height:50px;
-    }
+
 section.home{
     height: 600px;
     background:url("BG1.png");
@@ -50,12 +47,12 @@ section.home a {
      }
 
 section.about{
-    background: url(Marmer);
+    background: url(BG2.png);
     height: 600px;
     padding-top:100px;
     }
 section.about div{
-    color:white;
+    color:rgb(0, 0, 0);
     text-align: center;
     margin:auto;
     width:70%;
@@ -77,6 +74,7 @@ section.product .container {
      display: flex; 
      flex-wrap: wrap; 
      padding-top: 50px;
+     color:white;
     }
 section.product .container .card{ 
         width:210px; 
@@ -85,10 +83,11 @@ section.product .container .card{
         box-shadow: 0 0 2px ; 
         padding: 10px; 
         text-align: center; 
-        background: url(BG2) ;
+        background: url(Marmer) ;
     }
 section.product .container .card img{
     width: 100%;
+    
 }
  section.product .container .card a{
     color:rgb(255, 255, 255);
